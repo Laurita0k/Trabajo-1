@@ -206,21 +206,25 @@ label{
    
 }
 
-.content1 h1 {
+.content1 h3 {
     margin-top: 30px;
+    color: rgb(253, 0, 51);
 }
 
-.content2 h1 {
+.content2 h3 {
     margin-top: 30px;
+    color: aqua;
 }
-.content3 h1 {
+.content3 h3 {
     margin-top: 30px;
+    color:chartreuse
 }
 .content2 {
     
     padding: 25px;
     margin: 0 50px;
     font-family: sans-serif;
+    
    
 }
 .content3 {
@@ -364,9 +368,77 @@ body {
     background-size: cover;
     background-position: center;
 }
-        
-
     
+.end {
+    background-color: #fa618f;
+    margin: 0;
+    padding: 80px 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.cont {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h4 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #e72781;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #666;
+    padding-left: 6px;
+}
+
+.social-links a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    transition: all 3s ease;
+}
+
+.social-links a:hover {
+    background-color: #da1f48;
+}
+
+
+
+
 
 
 
